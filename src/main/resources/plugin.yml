@@ -1,0 +1,33 @@
+name: FlowCoreX
+version: 1.0.0
+main: cz.flowcore.FlowCoreX
+api-version: '26.2'
+author: FlowCore
+description: Advanced administration plugin for Flow SMP
+
+commands:
+  flowcore:
+    description: Main FlowCoreX command
+    aliases: [fc]
+    permission: flowcore.admin
+
+  staffchat:
+    description: Staff chat
+    aliases: [sc]
+    permission: flowcore.staffchat
+
+  freeze:
+    description: Freeze a player
+    permission: flowcore.freeze
+
+  unfreeze:
+    description: Unfreeze a player
+    permission: flowcore.freeze
+
+permissions:
+  flowcore.admin:
+    default: op
+  flowcore.staffchat:
+    default: op
+  flowcore.freeze:
+    default: op
